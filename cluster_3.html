@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_ecbcfdef291141f58f11a2289f0599bd {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ecbcfdef291141f58f11a2289f0599bd" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_ecbcfdef291141f58f11a2289f0599bd = L.map(
+                                  'map_ecbcfdef291141f58f11a2289f0599bd',
+                                  {center: [47.4983815,19.0404707],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_ddac22e5ccb14ce7b555552512be458f = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_ecbcfdef291141f58f11a2289f0599bd);
+        
+    
+            var circle_marker_e62fb618c48e480da0eb2c294926f418 = L.circleMarker(
+                [47.5814808,19.0200334],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "grey",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ecbcfdef291141f58f11a2289f0599bd);
+            
+    
+            var popup_a4041e00d1e1444aa37408ab1584ca5b = L.popup({maxWidth: '300'});
+
+            
+                var html_8293fe1263764397a8764ac2a8a087fe = $('<div id="html_8293fe1263764397a8764ac2a8a087fe" style="width: 100.0%; height: 100.0%;">Ürömhegy Cluster 3</div>')[0];
+                popup_a4041e00d1e1444aa37408ab1584ca5b.setContent(html_8293fe1263764397a8764ac2a8a087fe);
+            
+
+            circle_marker_e62fb618c48e480da0eb2c294926f418.bindPopup(popup_a4041e00d1e1444aa37408ab1584ca5b);
+
+            
+        
+    
+            var circle_marker_a30c428f5f3a4c23919f550fcc14cb7b = L.circleMarker(
+                [47.4952105,19.1744548],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "grey",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ecbcfdef291141f58f11a2289f0599bd);
+            
+    
+            var popup_532393e83a144813bcc010b8a1bfb322 = L.popup({maxWidth: '300'});
+
+            
+                var html_67579761edf74e04a198e2a610447394 = $('<div id="html_67579761edf74e04a198e2a610447394" style="width: 100.0%; height: 100.0%;">Felsőrákos Cluster 3</div>')[0];
+                popup_532393e83a144813bcc010b8a1bfb322.setContent(html_67579761edf74e04a198e2a610447394);
+            
+
+            circle_marker_a30c428f5f3a4c23919f550fcc14cb7b.bindPopup(popup_532393e83a144813bcc010b8a1bfb322);
+
+            
+        
+    
+            var circle_marker_1d72962e9d9a484790a8bde76a00ff01 = L.circleMarker(
+                [47.4300656,18.9869244],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "grey",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ecbcfdef291141f58f11a2289f0599bd);
+            
+    
+            var popup_b8b4db9bdc66414fa8489b156a5a02f1 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8d259539d5442d2ae63b0f9786a58e5 = $('<div id="html_e8d259539d5442d2ae63b0f9786a58e5" style="width: 100.0%; height: 100.0%;">Kamaraerdő Cluster 3</div>')[0];
+                popup_b8b4db9bdc66414fa8489b156a5a02f1.setContent(html_e8d259539d5442d2ae63b0f9786a58e5);
+            
+
+            circle_marker_1d72962e9d9a484790a8bde76a00ff01.bindPopup(popup_b8b4db9bdc66414fa8489b156a5a02f1);
+
+            
+        
+    
+            var circle_marker_f576802d41044cb2bfd54c9364106a32 = L.circleMarker(
+                [47.4414771,18.9958115],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "grey",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ecbcfdef291141f58f11a2289f0599bd);
+            
+    
+            var popup_bebfe79a701045ed86afa31a9a1d7430 = L.popup({maxWidth: '300'});
+
+            
+                var html_aadd0c068de6446385042fff8e28f61d = $('<div id="html_aadd0c068de6446385042fff8e28f61d" style="width: 100.0%; height: 100.0%;">Kőérberek Cluster 3</div>')[0];
+                popup_bebfe79a701045ed86afa31a9a1d7430.setContent(html_aadd0c068de6446385042fff8e28f61d);
+            
+
+            circle_marker_f576802d41044cb2bfd54c9364106a32.bindPopup(popup_bebfe79a701045ed86afa31a9a1d7430);
+
+            
+        
+</script>

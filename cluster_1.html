@@ -1,0 +1,2275 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_8acc17199f7e48ffb152c115128b4e7d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8acc17199f7e48ffb152c115128b4e7d" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_8acc17199f7e48ffb152c115128b4e7d = L.map(
+                                  'map_8acc17199f7e48ffb152c115128b4e7d',
+                                  {center: [47.4983815,19.0404707],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_dc3623b89d4a446a8b4506a634773b6e = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+        
+    
+            var circle_marker_8ab86fa6e7e84722af010fa9d88d552d = L.circleMarker(
+                [47.4845654,19.038769],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_f0c0d2b76d21483cbd3c7f881446b25b = L.popup({maxWidth: '300'});
+
+            
+                var html_a17c44b87ee941759061ac18d6ff1dea = $('<div id="html_a17c44b87ee941759061ac18d6ff1dea" style="width: 100.0%; height: 100.0%;">Gellérthegy Cluster 1</div>')[0];
+                popup_f0c0d2b76d21483cbd3c7f881446b25b.setContent(html_a17c44b87ee941759061ac18d6ff1dea);
+            
+
+            circle_marker_8ab86fa6e7e84722af010fa9d88d552d.bindPopup(popup_f0c0d2b76d21483cbd3c7f881446b25b);
+
+            
+        
+    
+            var circle_marker_c7159cefa4af4a208b769ec8378b5914 = L.circleMarker(
+                [47.5475499,18.9389837],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_6bc07643098d44e6b1b79267c90a7048 = L.popup({maxWidth: '300'});
+
+            
+                var html_55f80d046aa44372967b85f30941dbfe = $('<div id="html_55f80d046aa44372967b85f30941dbfe" style="width: 100.0%; height: 100.0%;">Adyliget Cluster 1</div>')[0];
+                popup_6bc07643098d44e6b1b79267c90a7048.setContent(html_55f80d046aa44372967b85f30941dbfe);
+            
+
+            circle_marker_c7159cefa4af4a208b769ec8378b5914.bindPopup(popup_6bc07643098d44e6b1b79267c90a7048);
+
+            
+        
+    
+            var circle_marker_55545692a1f64b9db9f2ab6071d79958 = L.circleMarker(
+                [47.5315247,19.002578],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_af6c332ec1a54cac9acd055aa19b0ba6 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1577cfb771a4d5797e81ee046bad072 = $('<div id="html_e1577cfb771a4d5797e81ee046bad072" style="width: 100.0%; height: 100.0%;">Csatárka Cluster 1</div>')[0];
+                popup_af6c332ec1a54cac9acd055aa19b0ba6.setContent(html_e1577cfb771a4d5797e81ee046bad072);
+            
+
+            circle_marker_55545692a1f64b9db9f2ab6071d79958.bindPopup(popup_af6c332ec1a54cac9acd055aa19b0ba6);
+
+            
+        
+    
+            var circle_marker_67de86a53a2d4bd39c6bfe9d47a4ebc0 = L.circleMarker(
+                [47.5617139,18.9675585],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_b4eab50e8d0b4626950b5422f1c2b876 = L.popup({maxWidth: '300'});
+
+            
+                var html_44bedbed0735406e90dab857d0666ac3 = $('<div id="html_44bedbed0735406e90dab857d0666ac3" style="width: 100.0%; height: 100.0%;">Erzsébetliget Cluster 1</div>')[0];
+                popup_b4eab50e8d0b4626950b5422f1c2b876.setContent(html_44bedbed0735406e90dab857d0666ac3);
+            
+
+            circle_marker_67de86a53a2d4bd39c6bfe9d47a4ebc0.bindPopup(popup_b4eab50e8d0b4626950b5422f1c2b876);
+
+            
+        
+    
+            var circle_marker_f523b3c29ac74c7ca975310795ae69a9 = L.circleMarker(
+                [47.544978,18.9573716],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_c3815dbdf8ee4e69aadb33858014ae34 = L.popup({maxWidth: '300'});
+
+            
+                var html_e732f2fa0f464d2c831d515b71ceaaa1 = $('<div id="html_e732f2fa0f464d2c831d515b71ceaaa1" style="width: 100.0%; height: 100.0%;">Erzsébettelek Cluster 1</div>')[0];
+                popup_c3815dbdf8ee4e69aadb33858014ae34.setContent(html_e732f2fa0f464d2c831d515b71ceaaa1);
+            
+
+            circle_marker_f523b3c29ac74c7ca975310795ae69a9.bindPopup(popup_c3815dbdf8ee4e69aadb33858014ae34);
+
+            
+        
+    
+            var circle_marker_6453ff618abd4f6b8d1b70486c872fe2 = L.circleMarker(
+                [47.5513777,18.9665408],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_e7490c3c2dce4c44bdb91cb99bf3110b = L.popup({maxWidth: '300'});
+
+            
+                var html_e3ab159a62c24f80a10160d89848cde6 = $('<div id="html_e3ab159a62c24f80a10160d89848cde6" style="width: 100.0%; height: 100.0%;">Hársakalja Cluster 1</div>')[0];
+                popup_e7490c3c2dce4c44bdb91cb99bf3110b.setContent(html_e3ab159a62c24f80a10160d89848cde6);
+            
+
+            circle_marker_6453ff618abd4f6b8d1b70486c872fe2.bindPopup(popup_e7490c3c2dce4c44bdb91cb99bf3110b);
+
+            
+        
+    
+            var circle_marker_0140453deea84767adc4ff4ec5d04bb7 = L.circleMarker(
+                [47.5314476,18.9757923],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_1b7e3398b3964d7ea35f8fe9d6711829 = L.popup({maxWidth: '300'});
+
+            
+                var html_a6155cd5247443d498b85f98bcf3a4bc = $('<div id="html_a6155cd5247443d498b85f98bcf3a4bc" style="width: 100.0%; height: 100.0%;">Lipótmező Cluster 1</div>')[0];
+                popup_1b7e3398b3964d7ea35f8fe9d6711829.setContent(html_a6155cd5247443d498b85f98bcf3a4bc);
+            
+
+            circle_marker_0140453deea84767adc4ff4ec5d04bb7.bindPopup(popup_1b7e3398b3964d7ea35f8fe9d6711829);
+
+            
+        
+    
+            var circle_marker_710d08c8648349a0b432192eedc8f075 = L.circleMarker(
+                [47.5588069,18.9452667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_7a3d398ac7f14d0f8c9961bb3f59d46d = L.popup({maxWidth: '300'});
+
+            
+                var html_df5216e1adc24f3e83d4f15e22ef3ad9 = $('<div id="html_df5216e1adc24f3e83d4f15e22ef3ad9" style="width: 100.0%; height: 100.0%;">Máriaremete Cluster 1</div>')[0];
+                popup_7a3d398ac7f14d0f8c9961bb3f59d46d.setContent(html_df5216e1adc24f3e83d4f15e22ef3ad9);
+            
+
+            circle_marker_710d08c8648349a0b432192eedc8f075.bindPopup(popup_7a3d398ac7f14d0f8c9961bb3f59d46d);
+
+            
+        
+    
+            var circle_marker_27435a78285240f590b0e896db4486bc = L.circleMarker(
+                [47.5355021,18.9877664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_7e9becf588c74a36a2b1755fd8932a1c = L.popup({maxWidth: '300'});
+
+            
+                var html_edd6fb89594f4be79b5c0ef04c695f08 = $('<div id="html_edd6fb89594f4be79b5c0ef04c695f08" style="width: 100.0%; height: 100.0%;">Nyék Cluster 1</div>')[0];
+                popup_7e9becf588c74a36a2b1755fd8932a1c.setContent(html_edd6fb89594f4be79b5c0ef04c695f08);
+            
+
+            circle_marker_27435a78285240f590b0e896db4486bc.bindPopup(popup_7e9becf588c74a36a2b1755fd8932a1c);
+
+            
+        
+    
+            var circle_marker_4042218e69e649a7ae1153f828f265f3 = L.circleMarker(
+                [47.5202876,18.9973722],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_313ad00f59e543aa9c988da33bb0150c = L.popup({maxWidth: '300'});
+
+            
+                var html_6e6424c1f97441c3b07ef5fb9e337519 = $('<div id="html_6e6424c1f97441c3b07ef5fb9e337519" style="width: 100.0%; height: 100.0%;">Pasarét Cluster 1</div>')[0];
+                popup_313ad00f59e543aa9c988da33bb0150c.setContent(html_6e6424c1f97441c3b07ef5fb9e337519);
+            
+
+            circle_marker_4042218e69e649a7ae1153f828f265f3.bindPopup(popup_313ad00f59e543aa9c988da33bb0150c);
+
+            
+        
+    
+            var circle_marker_04842b3ead9e41709351efcc5d2f7658 = L.circleMarker(
+                [47.5166719,19.0194603],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_3f4daccbebec400ab51325e7b0dbee1e = L.popup({maxWidth: '300'});
+
+            
+                var html_1b5bf8d25f6b4a7c80321bc14e659b37 = $('<div id="html_1b5bf8d25f6b4a7c80321bc14e659b37" style="width: 100.0%; height: 100.0%;">Rézmál Cluster 1</div>')[0];
+                popup_3f4daccbebec400ab51325e7b0dbee1e.setContent(html_1b5bf8d25f6b4a7c80321bc14e659b37);
+            
+
+            circle_marker_04842b3ead9e41709351efcc5d2f7658.bindPopup(popup_3f4daccbebec400ab51325e7b0dbee1e);
+
+            
+        
+    
+            var circle_marker_cc680735318f4b87bc2642016a262956 = L.circleMarker(
+                [47.5173286,19.0282878],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_ad68ade3ee814e6b81f4e7aef6a17aa7 = L.popup({maxWidth: '300'});
+
+            
+                var html_0790f1f32ce149169672e1ad708fe9f8 = $('<div id="html_0790f1f32ce149169672e1ad708fe9f8" style="width: 100.0%; height: 100.0%;">Rózsadomb Cluster 1</div>')[0];
+                popup_ad68ade3ee814e6b81f4e7aef6a17aa7.setContent(html_0790f1f32ce149169672e1ad708fe9f8);
+            
+
+            circle_marker_cc680735318f4b87bc2642016a262956.bindPopup(popup_ad68ade3ee814e6b81f4e7aef6a17aa7);
+
+            
+        
+    
+            var circle_marker_ba8c6034318f478db1592839036b53ab = L.circleMarker(
+                [47.5243288,19.0281792],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_3c5f37178ca04f3e81921074349a8327 = L.popup({maxWidth: '300'});
+
+            
+                var html_aae04d13387a4607a54bcdb1520f9b05 = $('<div id="html_aae04d13387a4607a54bcdb1520f9b05" style="width: 100.0%; height: 100.0%;">Szemlőhegy Cluster 1</div>')[0];
+                popup_3c5f37178ca04f3e81921074349a8327.setContent(html_aae04d13387a4607a54bcdb1520f9b05);
+            
+
+            circle_marker_ba8c6034318f478db1592839036b53ab.bindPopup(popup_3c5f37178ca04f3e81921074349a8327);
+
+            
+        
+    
+            var circle_marker_20dc861bb3b342358702b1d450e71ef7 = L.circleMarker(
+                [47.5600381,18.9596381],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_5224447256804bf8a0f2bffdcd435bca = L.popup({maxWidth: '300'});
+
+            
+                var html_ea975f2b3dfb4b2ab3b37ade1357ea11 = $('<div id="html_ea975f2b3dfb4b2ab3b37ade1357ea11" style="width: 100.0%; height: 100.0%;">Széphalom Cluster 1</div>')[0];
+                popup_5224447256804bf8a0f2bffdcd435bca.setContent(html_ea975f2b3dfb4b2ab3b37ade1357ea11);
+            
+
+            circle_marker_20dc861bb3b342358702b1d450e71ef7.bindPopup(popup_5224447256804bf8a0f2bffdcd435bca);
+
+            
+        
+    
+            var circle_marker_add7f2630b674a9faec2b8dfe347e719 = L.circleMarker(
+                [47.5192173,18.9904493],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_dc42ecd3c7ca46b6bbd3ea29f3974724 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a2202a77aff4a97bd20b37e7d5d5062 = $('<div id="html_7a2202a77aff4a97bd20b37e7d5d5062" style="width: 100.0%; height: 100.0%;">Szépilona Cluster 1</div>')[0];
+                popup_dc42ecd3c7ca46b6bbd3ea29f3974724.setContent(html_7a2202a77aff4a97bd20b37e7d5d5062);
+            
+
+            circle_marker_add7f2630b674a9faec2b8dfe347e719.bindPopup(popup_dc42ecd3c7ca46b6bbd3ea29f3974724);
+
+            
+        
+    
+            var circle_marker_89ffe563487d4aeabcfe7d862218cf89 = L.circleMarker(
+                [47.5220975,19.0030829],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_d9f20c5a12f14e6283d7a2041248252b = L.popup({maxWidth: '300'});
+
+            
+                var html_4f059f6a05414efa90b36ecd6cf5474c = $('<div id="html_4f059f6a05414efa90b36ecd6cf5474c" style="width: 100.0%; height: 100.0%;">Törökvész Cluster 1</div>')[0];
+                popup_d9f20c5a12f14e6283d7a2041248252b.setContent(html_4f059f6a05414efa90b36ecd6cf5474c);
+            
+
+            circle_marker_89ffe563487d4aeabcfe7d862218cf89.bindPopup(popup_d9f20c5a12f14e6283d7a2041248252b);
+
+            
+        
+    
+            var circle_marker_3dcdbd89b74f49f19dd64feabcb45c9a = L.circleMarker(
+                [47.5662604,19.0473478],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_576362bbfcdc46c0bf4be324b795039c = L.popup({maxWidth: '300'});
+
+            
+                var html_f3f4d097126e41e7bcae9d919040b2b4 = $('<div id="html_f3f4d097126e41e7bcae9d919040b2b4" style="width: 100.0%; height: 100.0%;">Aquincum Cluster 1</div>')[0];
+                popup_576362bbfcdc46c0bf4be324b795039c.setContent(html_f3f4d097126e41e7bcae9d919040b2b4);
+            
+
+            circle_marker_3dcdbd89b74f49f19dd64feabcb45c9a.bindPopup(popup_576362bbfcdc46c0bf4be324b795039c);
+
+            
+        
+    
+            var circle_marker_48b0dbbac19c43808be6b3d5ad0cd9b5 = L.circleMarker(
+                [47.5994131,19.054996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_5be6aface3114834ba93db62d0b8f5c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_b0ae263a357f4d4a8b55012c52c3a792 = $('<div id="html_b0ae263a357f4d4a8b55012c52c3a792" style="width: 100.0%; height: 100.0%;">Békásmegyer Cluster 1</div>')[0];
+                popup_5be6aface3114834ba93db62d0b8f5c0.setContent(html_b0ae263a357f4d4a8b55012c52c3a792);
+            
+
+            circle_marker_48b0dbbac19c43808be6b3d5ad0cd9b5.bindPopup(popup_5be6aface3114834ba93db62d0b8f5c0);
+
+            
+        
+    
+            var circle_marker_df8a0c6e9d284db18557f80d04871490 = L.circleMarker(
+                [47.5861629,19.0507049],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_b6d9fe10163b4d5dbc1085e10831bd09 = L.popup({maxWidth: '300'});
+
+            
+                var html_a36a43be1c144593a1a1124eefca5fb7 = $('<div id="html_a36a43be1c144593a1a1124eefca5fb7" style="width: 100.0%; height: 100.0%;">Csillaghegy Cluster 1</div>')[0];
+                popup_b6d9fe10163b4d5dbc1085e10831bd09.setContent(html_a36a43be1c144593a1a1124eefca5fb7);
+            
+
+            circle_marker_df8a0c6e9d284db18557f80d04871490.bindPopup(popup_b6d9fe10163b4d5dbc1085e10831bd09);
+
+            
+        
+    
+            var circle_marker_24fda3070fbf49879744045d4746549c = L.circleMarker(
+                [47.5336215,19.0228064],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_3f62f6045e354109a7a6e5d26e69d308 = L.popup({maxWidth: '300'});
+
+            
+                var html_482f1949a7834dbea54106da0cfb0544 = $('<div id="html_482f1949a7834dbea54106da0cfb0544" style="width: 100.0%; height: 100.0%;">Mátyáshegy Cluster 1</div>')[0];
+                popup_3f62f6045e354109a7a6e5d26e69d308.setContent(html_482f1949a7834dbea54106da0cfb0544);
+            
+
+            circle_marker_24fda3070fbf49879744045d4746549c.bindPopup(popup_3f62f6045e354109a7a6e5d26e69d308);
+
+            
+        
+    
+            var circle_marker_15c2edba25cc48d68ac05a86c1d70ebe = L.circleMarker(
+                [47.5404536,19.0204462],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_ee880e3698274cf5a76ba38a896e9eb2 = L.popup({maxWidth: '300'});
+
+            
+                var html_c9c8205c12014519ad90b72af6f5d915 = $('<div id="html_c9c8205c12014519ad90b72af6f5d915" style="width: 100.0%; height: 100.0%;">Remetehegy Cluster 1</div>')[0];
+                popup_ee880e3698274cf5a76ba38a896e9eb2.setContent(html_c9c8205c12014519ad90b72af6f5d915);
+            
+
+            circle_marker_15c2edba25cc48d68ac05a86c1d70ebe.bindPopup(popup_ee880e3698274cf5a76ba38a896e9eb2);
+
+            
+        
+    
+            var circle_marker_13fdf5af4a594de0897ccfb7da83a135 = L.circleMarker(
+                [47.5748383,19.0567061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_3d51bf5e372d4a8c9bd8dac913774085 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6cf144e67ee4230ba17a8345fced738 = $('<div id="html_d6cf144e67ee4230ba17a8345fced738" style="width: 100.0%; height: 100.0%;">Rómaifürdő Cluster 1</div>')[0];
+                popup_3d51bf5e372d4a8c9bd8dac913774085.setContent(html_d6cf144e67ee4230ba17a8345fced738);
+            
+
+            circle_marker_13fdf5af4a594de0897ccfb7da83a135.bindPopup(popup_3d51bf5e372d4a8c9bd8dac913774085);
+
+            
+        
+    
+            var circle_marker_01ca4c25cd14497fadc9e9dbe677a86d = L.circleMarker(
+                [47.5639336,19.0135869],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_d88e3f2bfc9f4623ab24ad174420492e = L.popup({maxWidth: '300'});
+
+            
+                var html_f7ee318f59fe48499090cb36f44069c5 = $('<div id="html_f7ee318f59fe48499090cb36f44069c5" style="width: 100.0%; height: 100.0%;">Testvérhegy Cluster 1</div>')[0];
+                popup_d88e3f2bfc9f4623ab24ad174420492e.setContent(html_f7ee318f59fe48499090cb36f44069c5);
+            
+
+            circle_marker_01ca4c25cd14497fadc9e9dbe677a86d.bindPopup(popup_d88e3f2bfc9f4623ab24ad174420492e);
+
+            
+        
+    
+            var circle_marker_5b259241bb1a45169006ccd0c9ecace2 = L.circleMarker(
+                [47.5644145,19.0276525],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_2778d90eeea443159f4b8cec36724611 = L.popup({maxWidth: '300'});
+
+            
+                var html_51ccaef69d234476bfa9db1ea005c0b3 = $('<div id="html_51ccaef69d234476bfa9db1ea005c0b3" style="width: 100.0%; height: 100.0%;">Törökkő Cluster 1</div>')[0];
+                popup_2778d90eeea443159f4b8cec36724611.setContent(html_51ccaef69d234476bfa9db1ea005c0b3);
+            
+
+            circle_marker_5b259241bb1a45169006ccd0c9ecace2.bindPopup(popup_2778d90eeea443159f4b8cec36724611);
+
+            
+        
+    
+            var circle_marker_26ba5fb0a0794d52addc3aa23ba9517e = L.circleMarker(
+                [47.5502185,19.1044666],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_866750ef32304887b2a49d113ba99452 = L.popup({maxWidth: '300'});
+
+            
+                var html_c94037c11d3f4f769039acda8257894f = $('<div id="html_c94037c11d3f4f769039acda8257894f" style="width: 100.0%; height: 100.0%;">Istvántelek Cluster 1</div>')[0];
+                popup_866750ef32304887b2a49d113ba99452.setContent(html_c94037c11d3f4f769039acda8257894f);
+            
+
+            circle_marker_26ba5fb0a0794d52addc3aa23ba9517e.bindPopup(popup_866750ef32304887b2a49d113ba99452);
+
+            
+        
+    
+            var circle_marker_a0c9977010b74e158e8a21530cf6e5cf = L.circleMarker(
+                [47.4905952,19.0873404],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_95bbae1903a44ae89487d7ffd84c73be = L.popup({maxWidth: '300'});
+
+            
+                var html_65f9dae5a6704ca891da4e625284d651 = $('<div id="html_65f9dae5a6704ca891da4e625284d651" style="width: 100.0%; height: 100.0%;">Józsefváros Cluster 1</div>')[0];
+                popup_95bbae1903a44ae89487d7ffd84c73be.setContent(html_65f9dae5a6704ca891da4e625284d651);
+            
+
+            circle_marker_a0c9977010b74e158e8a21530cf6e5cf.bindPopup(popup_95bbae1903a44ae89487d7ffd84c73be);
+
+            
+        
+    
+            var circle_marker_f73f966142f349129039b0f62fa1077e = L.circleMarker(
+                [47.4646023,19.1148204],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_38d878fe4b4e4c9ead1dbe5b9d989658 = L.popup({maxWidth: '300'});
+
+            
+                var html_b0d6601f36a34a6d8ae5b284f31962b7 = $('<div id="html_b0d6601f36a34a6d8ae5b284f31962b7" style="width: 100.0%; height: 100.0%;">József Attila-lakótelep Cluster 1</div>')[0];
+                popup_38d878fe4b4e4c9ead1dbe5b9d989658.setContent(html_b0d6601f36a34a6d8ae5b284f31962b7);
+            
+
+            circle_marker_f73f966142f349129039b0f62fa1077e.bindPopup(popup_38d878fe4b4e4c9ead1dbe5b9d989658);
+
+            
+        
+    
+            var circle_marker_7216c4f622e34679967e5a90c1128249 = L.circleMarker(
+                [47.4472941,19.0342952],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_d37b63c072f246778f101efc26e87c2d = L.popup({maxWidth: '300'});
+
+            
+                var html_cfd0106476ec42b8abb680dd898efe1a = $('<div id="html_cfd0106476ec42b8abb680dd898efe1a" style="width: 100.0%; height: 100.0%;">Albertfalva Cluster 1</div>')[0];
+                popup_d37b63c072f246778f101efc26e87c2d.setContent(html_cfd0106476ec42b8abb680dd898efe1a);
+            
+
+            circle_marker_7216c4f622e34679967e5a90c1128249.bindPopup(popup_d37b63c072f246778f101efc26e87c2d);
+
+            
+        
+    
+            var circle_marker_3c343ad4872b44f0a380dd9bdc95191b = L.circleMarker(
+                [47.4589981,19.0041625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_5eba96a36e5c407cbad7aff03ae0a84b = L.popup({maxWidth: '300'});
+
+            
+                var html_ff5b65fd950d4fe0b20b29eba5d99564 = $('<div id="html_ff5b65fd950d4fe0b20b29eba5d99564" style="width: 100.0%; height: 100.0%;">Dobogó Cluster 1</div>')[0];
+                popup_5eba96a36e5c407cbad7aff03ae0a84b.setContent(html_ff5b65fd950d4fe0b20b29eba5d99564);
+            
+
+            circle_marker_3c343ad4872b44f0a380dd9bdc95191b.bindPopup(popup_5eba96a36e5c407cbad7aff03ae0a84b);
+
+            
+        
+    
+            var circle_marker_7580459ca26043afb794fdce19d33293 = L.circleMarker(
+                [47.4702468,18.9989914],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_b5e8612d43c54f5a8aae127fb4a6cbc1 = L.popup({maxWidth: '300'});
+
+            
+                var html_0292ea4704714bdeb0a88ed1263a57b0 = $('<div id="html_0292ea4704714bdeb0a88ed1263a57b0" style="width: 100.0%; height: 100.0%;">Gazdagrét Cluster 1</div>')[0];
+                popup_b5e8612d43c54f5a8aae127fb4a6cbc1.setContent(html_0292ea4704714bdeb0a88ed1263a57b0);
+            
+
+            circle_marker_7580459ca26043afb794fdce19d33293.bindPopup(popup_b5e8612d43c54f5a8aae127fb4a6cbc1);
+
+            
+        
+    
+            var circle_marker_8cdf8a85cafa4568a578d75cbaa506a7 = L.circleMarker(
+                [47.4845654,19.038769],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_24bab3f85cad4f2989c4d8e6efbd9734 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d75c802e1574db3a9eb66190922e031 = $('<div id="html_8d75c802e1574db3a9eb66190922e031" style="width: 100.0%; height: 100.0%;">Gellérthegy Cluster 1</div>')[0];
+                popup_24bab3f85cad4f2989c4d8e6efbd9734.setContent(html_8d75c802e1574db3a9eb66190922e031);
+            
+
+            circle_marker_8cdf8a85cafa4568a578d75cbaa506a7.bindPopup(popup_24bab3f85cad4f2989c4d8e6efbd9734);
+
+            
+        
+    
+            var circle_marker_166189da94594fa286d5f9cee2c0ea8e = L.circleMarker(
+                [47.4661016,18.9973798],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_e6f988de73c4480cbb838409c11cdbea = L.popup({maxWidth: '300'});
+
+            
+                var html_e377f70ea4674ad489f6d90a1b4a987b = $('<div id="html_e377f70ea4674ad489f6d90a1b4a987b" style="width: 100.0%; height: 100.0%;">Hosszúrét Cluster 1</div>')[0];
+                popup_e6f988de73c4480cbb838409c11cdbea.setContent(html_e377f70ea4674ad489f6d90a1b4a987b);
+            
+
+            circle_marker_166189da94594fa286d5f9cee2c0ea8e.bindPopup(popup_e6f988de73c4480cbb838409c11cdbea);
+
+            
+        
+    
+            var circle_marker_3caebcd4aead410183e2304d2a10151b = L.circleMarker(
+                [47.4477776,19.0243881],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_255c7b2a3bc74bbaa91e6cdead3d2f40 = L.popup({maxWidth: '300'});
+
+            
+                var html_1670d6df96aa4047b1198f3aff9c06ee = $('<div id="html_1670d6df96aa4047b1198f3aff9c06ee" style="width: 100.0%; height: 100.0%;">Kelenvölgy Cluster 1</div>')[0];
+                popup_255c7b2a3bc74bbaa91e6cdead3d2f40.setContent(html_1670d6df96aa4047b1198f3aff9c06ee);
+            
+
+            circle_marker_3caebcd4aead410183e2304d2a10151b.bindPopup(popup_255c7b2a3bc74bbaa91e6cdead3d2f40);
+
+            
+        
+    
+            var circle_marker_29c6e812806147c982ca9e395041b724 = L.circleMarker(
+                [47.4611541,19.015881],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_9a69c21b52184da080324468dd4ec2e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_b639d3f705824a1693e1d6aca957ffc7 = $('<div id="html_b639d3f705824a1693e1d6aca957ffc7" style="width: 100.0%; height: 100.0%;">Őrmező Cluster 1</div>')[0];
+                popup_9a69c21b52184da080324468dd4ec2e3.setContent(html_b639d3f705824a1693e1d6aca957ffc7);
+            
+
+            circle_marker_29c6e812806147c982ca9e395041b724.bindPopup(popup_9a69c21b52184da080324468dd4ec2e3);
+
+            
+        
+    
+            var circle_marker_6af9c3888f0c4f1482fb51409bbbff60 = L.circleMarker(
+                [47.4602945,18.9869167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_3170efe6832d48a39dc1a9827b999b9d = L.popup({maxWidth: '300'});
+
+            
+                var html_c6212ab799cf4691984a72bcaf54ca77 = $('<div id="html_c6212ab799cf4691984a72bcaf54ca77" style="width: 100.0%; height: 100.0%;">Örsöd Cluster 1</div>')[0];
+                popup_3170efe6832d48a39dc1a9827b999b9d.setContent(html_c6212ab799cf4691984a72bcaf54ca77);
+            
+
+            circle_marker_6af9c3888f0c4f1482fb51409bbbff60.bindPopup(popup_3170efe6832d48a39dc1a9827b999b9d);
+
+            
+        
+    
+            var circle_marker_ce9711cf8c4e4a70ac591ad9b9e7e378 = L.circleMarker(
+                [47.4487141,19.0111469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_6bc4c3cba47e4e43a17062b2489334c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_d92d75f6830642279849fbd6bf9a9de7 = $('<div id="html_d92d75f6830642279849fbd6bf9a9de7" style="width: 100.0%; height: 100.0%;">Péterhegy Cluster 1</div>')[0];
+                popup_6bc4c3cba47e4e43a17062b2489334c4.setContent(html_d92d75f6830642279849fbd6bf9a9de7);
+            
+
+            circle_marker_ce9711cf8c4e4a70ac591ad9b9e7e378.bindPopup(popup_6bc4c3cba47e4e43a17062b2489334c4);
+
+            
+        
+    
+            var circle_marker_8f57e2b13071443288dc6c489a775410 = L.circleMarker(
+                [47.4760764,19.0064431],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_23ed32eee4ae4192b9cd28051b7206e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_20599d7c502245efbf8def06f97ff605 = $('<div id="html_20599d7c502245efbf8def06f97ff605" style="width: 100.0%; height: 100.0%;">Sasad Cluster 1</div>')[0];
+                popup_23ed32eee4ae4192b9cd28051b7206e9.setContent(html_20599d7c502245efbf8def06f97ff605);
+            
+
+            circle_marker_8f57e2b13071443288dc6c489a775410.bindPopup(popup_23ed32eee4ae4192b9cd28051b7206e9);
+
+            
+        
+    
+            var circle_marker_a5900d787e0a45ad87fc360b3f8decf9 = L.circleMarker(
+                [47.4807204,19.0200262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_20a42236cfa84b29bddecc5132b41f31 = L.popup({maxWidth: '300'});
+
+            
+                var html_7c9180f2bb214a6ab9404c2ad8a3aea4 = $('<div id="html_7c9180f2bb214a6ab9404c2ad8a3aea4" style="width: 100.0%; height: 100.0%;">Sashegy Cluster 1</div>')[0];
+                popup_20a42236cfa84b29bddecc5132b41f31.setContent(html_7c9180f2bb214a6ab9404c2ad8a3aea4);
+            
+
+            circle_marker_a5900d787e0a45ad87fc360b3f8decf9.bindPopup(popup_20a42236cfa84b29bddecc5132b41f31);
+
+            
+        
+    
+            var circle_marker_8c7ca0f6ef0f42bcb7c1003a771db4c9 = L.circleMarker(
+                [47.4662884,18.9823521],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_8fd32fa8a6284f9290ebd9f62290fa52 = L.popup({maxWidth: '300'});
+
+            
+                var html_bf2ff030b2434cb797cd3be5e38ef1d1 = $('<div id="html_bf2ff030b2434cb797cd3be5e38ef1d1" style="width: 100.0%; height: 100.0%;">Spanyolrét Cluster 1</div>')[0];
+                popup_8fd32fa8a6284f9290ebd9f62290fa52.setContent(html_bf2ff030b2434cb797cd3be5e38ef1d1);
+            
+
+            circle_marker_8c7ca0f6ef0f42bcb7c1003a771db4c9.bindPopup(popup_8fd32fa8a6284f9290ebd9f62290fa52);
+
+            
+        
+    
+            var circle_marker_e7028af0e7d94df8b966ab0422be1b31 = L.circleMarker(
+                [47.4843007,18.998835],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_c6f0fa6f7148449f86f89aa1bd757c97 = L.popup({maxWidth: '300'});
+
+            
+                var html_f93af5468f1648f78fedc3440b68b115 = $('<div id="html_f93af5468f1648f78fedc3440b68b115" style="width: 100.0%; height: 100.0%;">Farkasrét Cluster 1</div>')[0];
+                popup_c6f0fa6f7148449f86f89aa1bd757c97.setContent(html_f93af5468f1648f78fedc3440b68b115);
+            
+
+            circle_marker_e7028af0e7d94df8b966ab0422be1b31.bindPopup(popup_c6f0fa6f7148449f86f89aa1bd757c97);
+
+            
+        
+    
+            var circle_marker_f63423cfeb434dc69f460978a149cf02 = L.circleMarker(
+                [47.4834414,18.9880851],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_c384e773e14e405a8d4ba0e77f331cdd = L.popup({maxWidth: '300'});
+
+            
+                var html_9e3809eaf5774a16898694fb2ed0e998 = $('<div id="html_9e3809eaf5774a16898694fb2ed0e998" style="width: 100.0%; height: 100.0%;">Farkasvölgy Cluster 1</div>')[0];
+                popup_c384e773e14e405a8d4ba0e77f331cdd.setContent(html_9e3809eaf5774a16898694fb2ed0e998);
+            
+
+            circle_marker_f63423cfeb434dc69f460978a149cf02.bindPopup(popup_c384e773e14e405a8d4ba0e77f331cdd);
+
+            
+        
+    
+            var circle_marker_664de9934e1e4bc2876dc34c260f1adf = L.circleMarker(
+                [47.5041354,18.9998218],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_28a6efab12a444d3b37d59e5b62e401d = L.popup({maxWidth: '300'});
+
+            
+                var html_bb0187af191f4d02b0fed7ad8c7f5d36 = $('<div id="html_bb0187af191f4d02b0fed7ad8c7f5d36" style="width: 100.0%; height: 100.0%;">Istenhegy Cluster 1</div>')[0];
+                popup_28a6efab12a444d3b37d59e5b62e401d.setContent(html_bb0187af191f4d02b0fed7ad8c7f5d36);
+            
+
+            circle_marker_664de9934e1e4bc2876dc34c260f1adf.bindPopup(popup_28a6efab12a444d3b37d59e5b62e401d);
+
+            
+        
+    
+            var circle_marker_7f50bbf0e42d453fa089bb1318bbada2 = L.circleMarker(
+                [47.519317,18.9648881],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_a5fda797b731444399d87cb44a1f212c = L.popup({maxWidth: '300'});
+
+            
+                var html_1c5c1946ed344c5c85cbce7613181144 = $('<div id="html_1c5c1946ed344c5c85cbce7613181144" style="width: 100.0%; height: 100.0%;">Jánoshegy Cluster 1</div>')[0];
+                popup_a5fda797b731444399d87cb44a1f212c.setContent(html_1c5c1946ed344c5c85cbce7613181144);
+            
+
+            circle_marker_7f50bbf0e42d453fa089bb1318bbada2.bindPopup(popup_a5fda797b731444399d87cb44a1f212c);
+
+            
+        
+    
+            var circle_marker_9b3f86c0430d46caa963c3661bbed367 = L.circleMarker(
+                [47.5022677,19.0125691],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_b54b7ffda6f242729a107765f3be6f8d = L.popup({maxWidth: '300'});
+
+            
+                var html_10163c9edc7844bd91cbf3c05b981bee = $('<div id="html_10163c9edc7844bd91cbf3c05b981bee" style="width: 100.0%; height: 100.0%;">Kissvábhegy Cluster 1</div>')[0];
+                popup_b54b7ffda6f242729a107765f3be6f8d.setContent(html_10163c9edc7844bd91cbf3c05b981bee);
+            
+
+            circle_marker_9b3f86c0430d46caa963c3661bbed367.bindPopup(popup_b54b7ffda6f242729a107765f3be6f8d);
+
+            
+        
+    
+            var circle_marker_0ba32959bd224ecc9734c63012a97987 = L.circleMarker(
+                [47.4801274,18.9865171],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_5a5827d9e13d4fb5af42e384c6fd825c = L.popup({maxWidth: '300'});
+
+            
+                var html_7b79b752c5b740d4ba3b43004d2da5d3 = $('<div id="html_7b79b752c5b740d4ba3b43004d2da5d3" style="width: 100.0%; height: 100.0%;">Magasút Cluster 1</div>')[0];
+                popup_5a5827d9e13d4fb5af42e384c6fd825c.setContent(html_7b79b752c5b740d4ba3b43004d2da5d3);
+            
+
+            circle_marker_0ba32959bd224ecc9734c63012a97987.bindPopup(popup_5a5827d9e13d4fb5af42e384c6fd825c);
+
+            
+        
+    
+            var circle_marker_4e9a22230fa24142a500ca16090ac179 = L.circleMarker(
+                [47.4902613,19.0016919],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_473f1435cba343d19a66b636cf4b3a5a = L.popup({maxWidth: '300'});
+
+            
+                var html_84df226115984ea69b46ff724e7d685c = $('<div id="html_84df226115984ea69b46ff724e7d685c" style="width: 100.0%; height: 100.0%;">Mártonhegy Cluster 1</div>')[0];
+                popup_473f1435cba343d19a66b636cf4b3a5a.setContent(html_84df226115984ea69b46ff724e7d685c);
+            
+
+            circle_marker_4e9a22230fa24142a500ca16090ac179.bindPopup(popup_473f1435cba343d19a66b636cf4b3a5a);
+
+            
+        
+    
+            var circle_marker_1b4df05726f54e468174e7933559347d = L.circleMarker(
+                [47.4962116,19.0054865],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_9e2691c9664e4d0b8ff2050bd8069d87 = L.popup({maxWidth: '300'});
+
+            
+                var html_1f6948dc84e14b349864142ee0964553 = $('<div id="html_1f6948dc84e14b349864142ee0964553" style="width: 100.0%; height: 100.0%;">Orbánhegy Cluster 1</div>')[0];
+                popup_9e2691c9664e4d0b8ff2050bd8069d87.setContent(html_1f6948dc84e14b349864142ee0964553);
+            
+
+            circle_marker_1b4df05726f54e468174e7933559347d.bindPopup(popup_9e2691c9664e4d0b8ff2050bd8069d87);
+
+            
+        
+    
+            var circle_marker_bb5c306102b1431d98a5ebf7cce4cf2c = L.circleMarker(
+                [47.4807204,19.0200262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_dd7cf5915b644828bf7a64587d6763b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bf22a46e5bb4ef197af17beda9e0762 = $('<div id="html_0bf22a46e5bb4ef197af17beda9e0762" style="width: 100.0%; height: 100.0%;">Sashegy Cluster 1</div>')[0];
+                popup_dd7cf5915b644828bf7a64587d6763b1.setContent(html_0bf22a46e5bb4ef197af17beda9e0762);
+            
+
+            circle_marker_bb5c306102b1431d98a5ebf7cce4cf2c.bindPopup(popup_dd7cf5915b644828bf7a64587d6763b1);
+
+            
+        
+    
+            var circle_marker_6aeca516eda748458d5660d9a73e5a54 = L.circleMarker(
+                [47.5251778,19.1282801],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_70d00bfb318b49ecb1aae79e05d8917f = L.popup({maxWidth: '300'});
+
+            
+                var html_51e1e24a97a442708a7cf87b9ffe94af = $('<div id="html_51e1e24a97a442708a7cf87b9ffe94af" style="width: 100.0%; height: 100.0%;">Alsórákos Cluster 1</div>')[0];
+                popup_70d00bfb318b49ecb1aae79e05d8917f.setContent(html_51e1e24a97a442708a7cf87b9ffe94af);
+            
+
+            circle_marker_6aeca516eda748458d5660d9a73e5a54.bindPopup(popup_70d00bfb318b49ecb1aae79e05d8917f);
+
+            
+        
+    
+            var circle_marker_a49dd262010849af9944d2f70e025c7b = L.circleMarker(
+                [47.5081505,19.1261429],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_0ff2a534771543c0af31d5e26edcae38 = L.popup({maxWidth: '300'});
+
+            
+                var html_81dde6dc9ea0401fb8d5a0bc4a48c10a = $('<div id="html_81dde6dc9ea0401fb8d5a0bc4a48c10a" style="width: 100.0%; height: 100.0%;">Nagyzugló Cluster 1</div>')[0];
+                popup_0ff2a534771543c0af31d5e26edcae38.setContent(html_81dde6dc9ea0401fb8d5a0bc4a48c10a);
+            
+
+            circle_marker_a49dd262010849af9944d2f70e025c7b.bindPopup(popup_0ff2a534771543c0af31d5e26edcae38);
+
+            
+        
+    
+            var circle_marker_19cae4ccc2aa4122add0320197f5d9e3 = L.circleMarker(
+                [47.5068868,19.1462216],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_656a8e7f82d84168a3cb94cf58703661 = L.popup({maxWidth: '300'});
+
+            
+                var html_6e026ed2c6cd4bcc81dc71b9597e9293 = $('<div id="html_6e026ed2c6cd4bcc81dc71b9597e9293" style="width: 100.0%; height: 100.0%;">Rákosfalva Cluster 1</div>')[0];
+                popup_656a8e7f82d84168a3cb94cf58703661.setContent(html_6e026ed2c6cd4bcc81dc71b9597e9293);
+            
+
+            circle_marker_19cae4ccc2aa4122add0320197f5d9e3.bindPopup(popup_656a8e7f82d84168a3cb94cf58703661);
+
+            
+        
+    
+            var circle_marker_de16bd33a0204f07b7c484d4693f58ca = L.circleMarker(
+                [47.5074376,19.1115031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_26074826cd364bd3aeb436cd3116a7a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e7683593fa642f0b6c475d005344cd1 = $('<div id="html_2e7683593fa642f0b6c475d005344cd1" style="width: 100.0%; height: 100.0%;">Törökőr Cluster 1</div>')[0];
+                popup_26074826cd364bd3aeb436cd3116a7a7.setContent(html_2e7683593fa642f0b6c475d005344cd1);
+            
+
+            circle_marker_de16bd33a0204f07b7c484d4693f58ca.bindPopup(popup_26074826cd364bd3aeb436cd3116a7a7);
+
+            
+        
+    
+            var circle_marker_27ba2092e7de4b7cb1247c1ab99cc321 = L.circleMarker(
+                [47.5379542,19.1297636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_10dfea096f8c4657aad75de56911140e = L.popup({maxWidth: '300'});
+
+            
+                var html_341c795b3e344e6a83964b16e404750d = $('<div id="html_341c795b3e344e6a83964b16e404750d" style="width: 100.0%; height: 100.0%;">Pestújhely Cluster 1</div>')[0];
+                popup_10dfea096f8c4657aad75de56911140e.setContent(html_341c795b3e344e6a83964b16e404750d);
+            
+
+            circle_marker_27ba2092e7de4b7cb1247c1ab99cc321.bindPopup(popup_10dfea096f8c4657aad75de56911140e);
+
+            
+        
+    
+            var circle_marker_2625476fad564f6b97052789c8b0a51a = L.circleMarker(
+                [47.5057828,19.2086396],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_0cafe2664a9f4d5b910de38d64b7c76b = L.popup({maxWidth: '300'});
+
+            
+                var html_33055c9caa7449759ac1ef3de1f4442a = $('<div id="html_33055c9caa7449759ac1ef3de1f4442a" style="width: 100.0%; height: 100.0%;">Mátyásföld Cluster 1</div>')[0];
+                popup_0cafe2664a9f4d5b910de38d64b7c76b.setContent(html_33055c9caa7449759ac1ef3de1f4442a);
+            
+
+            circle_marker_2625476fad564f6b97052789c8b0a51a.bindPopup(popup_0cafe2664a9f4d5b910de38d64b7c76b);
+
+            
+        
+    
+            var circle_marker_16dc3a39bf9646e8a0c458c469890be1 = L.circleMarker(
+                [47.5098147,19.1776272],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_fbfaf41b795a4e96addd781c4bd244e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_c073fb35ddc342a9ac704592ee1bed69 = $('<div id="html_c073fb35ddc342a9ac704592ee1bed69" style="width: 100.0%; height: 100.0%;">Sashalom Cluster 1</div>')[0];
+                popup_fbfaf41b795a4e96addd781c4bd244e3.setContent(html_c073fb35ddc342a9ac704592ee1bed69);
+            
+
+            circle_marker_16dc3a39bf9646e8a0c458c469890be1.bindPopup(popup_fbfaf41b795a4e96addd781c4bd244e3);
+
+            
+        
+    
+            var circle_marker_1e787107b74a442091724d7374a6a54c = L.circleMarker(
+                [47.5272414,19.1703355],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_8ab513efe048430eb9bd9a5256dbc285 = L.popup({maxWidth: '300'});
+
+            
+                var html_3457055445a84e959d2744a44ad40ae3 = $('<div id="html_3457055445a84e959d2744a44ad40ae3" style="width: 100.0%; height: 100.0%;">Rákosszentmihály Cluster 1</div>')[0];
+                popup_8ab513efe048430eb9bd9a5256dbc285.setContent(html_3457055445a84e959d2744a44ad40ae3);
+            
+
+            circle_marker_1e787107b74a442091724d7374a6a54c.bindPopup(popup_8ab513efe048430eb9bd9a5256dbc285);
+
+            
+        
+    
+            var circle_marker_64ff71d9cc8c4c35a0c1a5b705a21a6a = L.circleMarker(
+                [47.5396445,19.1799243],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_a218894d84564d858fc0d2f3762a589d = L.popup({maxWidth: '300'});
+
+            
+                var html_1580c261534c4c6b962baea73924dc03 = $('<div id="html_1580c261534c4c6b962baea73924dc03" style="width: 100.0%; height: 100.0%;">Kisszentmihály Cluster 1</div>')[0];
+                popup_a218894d84564d858fc0d2f3762a589d.setContent(html_1580c261534c4c6b962baea73924dc03);
+            
+
+            circle_marker_64ff71d9cc8c4c35a0c1a5b705a21a6a.bindPopup(popup_a218894d84564d858fc0d2f3762a589d);
+
+            
+        
+    
+            var circle_marker_81b3b54612064049964c945fb631b512 = L.circleMarker(
+                [47.4788414,19.2462341],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_12dc94c624cc44968092a9fa165e6c24 = L.popup({maxWidth: '300'});
+
+            
+                var html_80592ecaed9c4febb52bfeca4ab82a69 = $('<div id="html_80592ecaed9c4febb52bfeca4ab82a69" style="width: 100.0%; height: 100.0%;">Rákoskeresztúr Cluster 1</div>')[0];
+                popup_12dc94c624cc44968092a9fa165e6c24.setContent(html_80592ecaed9c4febb52bfeca4ab82a69);
+            
+
+            circle_marker_81b3b54612064049964c945fb631b512.bindPopup(popup_12dc94c624cc44968092a9fa165e6c24);
+
+            
+        
+    
+            var circle_marker_1134e14c2b0d4fbfbeedc5f6937b053d = L.circleMarker(
+                [47.4889412,19.259332],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_7b94d7b0a5cf444e977ded107a285368 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c63d39c235840e5b1c3afed59096b7a = $('<div id="html_2c63d39c235840e5b1c3afed59096b7a" style="width: 100.0%; height: 100.0%;">Rákosliget Cluster 1</div>')[0];
+                popup_7b94d7b0a5cf444e977ded107a285368.setContent(html_2c63d39c235840e5b1c3afed59096b7a);
+            
+
+            circle_marker_1134e14c2b0d4fbfbeedc5f6937b053d.bindPopup(popup_7b94d7b0a5cf444e977ded107a285368);
+
+            
+        
+    
+            var circle_marker_e3c8bdc27be44e148501a68e41afde72 = L.circleMarker(
+                [47.4609582,19.2416271],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_d4ce96a13cf04b038ee226c7249fa949 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb4cc478c7e54f628ee1ea6efa283543 = $('<div id="html_eb4cc478c7e54f628ee1ea6efa283543" style="width: 100.0%; height: 100.0%;">Rákoshegy Cluster 1</div>')[0];
+                popup_d4ce96a13cf04b038ee226c7249fa949.setContent(html_eb4cc478c7e54f628ee1ea6efa283543);
+            
+
+            circle_marker_e3c8bdc27be44e148501a68e41afde72.bindPopup(popup_d4ce96a13cf04b038ee226c7249fa949);
+
+            
+        
+    
+            var circle_marker_52fc8c44a4764b468d4b4cadcf6dece1 = L.circleMarker(
+                [47.4549243,19.1823857],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_70de7b78fa7c440ab4702ca16cc3d079 = L.popup({maxWidth: '300'});
+
+            
+                var html_905fb9835bb84475a50b9ab014220630 = $('<div id="html_905fb9835bb84475a50b9ab014220630" style="width: 100.0%; height: 100.0%;">Pestszentlőrinc Cluster 1</div>')[0];
+                popup_70de7b78fa7c440ab4702ca16cc3d079.setContent(html_905fb9835bb84475a50b9ab014220630);
+            
+
+            circle_marker_52fc8c44a4764b468d4b4cadcf6dece1.bindPopup(popup_70de7b78fa7c440ab4702ca16cc3d079);
+
+            
+        
+    
+            var circle_marker_f74a9ccffa1440a8aff3d017e1a1c5f5 = L.circleMarker(
+                [47.4031897,19.1873926],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_34b65e98b8074d37a6e7f911f2b5589f = L.popup({maxWidth: '300'});
+
+            
+                var html_05929ebcaf3946a5a9138337fed76691 = $('<div id="html_05929ebcaf3946a5a9138337fed76691" style="width: 100.0%; height: 100.0%;">Pestszentimre Cluster 1</div>')[0];
+                popup_34b65e98b8074d37a6e7f911f2b5589f.setContent(html_05929ebcaf3946a5a9138337fed76691);
+            
+
+            circle_marker_f74a9ccffa1440a8aff3d017e1a1c5f5.bindPopup(popup_34b65e98b8074d37a6e7f911f2b5589f);
+
+            
+        
+    
+            var circle_marker_fd35aa0e8318441c90a462b394cfae0b = L.circleMarker(
+                [47.4557868,19.1259098],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_3bb7e095232a4b168ccbf7d4dd6c4a72 = L.popup({maxWidth: '300'});
+
+            
+                var html_485f871fe51748aabd116d94cecf5ff9 = $('<div id="html_485f871fe51748aabd116d94cecf5ff9" style="width: 100.0%; height: 100.0%;">Wekerletelep Cluster 1</div>')[0];
+                popup_3bb7e095232a4b168ccbf7d4dd6c4a72.setContent(html_485f871fe51748aabd116d94cecf5ff9);
+            
+
+            circle_marker_fd35aa0e8318441c90a462b394cfae0b.bindPopup(popup_3bb7e095232a4b168ccbf7d4dd6c4a72);
+
+            
+        
+    
+            var circle_marker_1d5b0099655b410fa866efd3ecf84825 = L.circleMarker(
+                [47.424317,19.069213818602236],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_8fdb5e1fbfdb437794b02db8271c2efc = L.popup({maxWidth: '300'});
+
+            
+                var html_6de6fc0baa5446afb94bb638258db59e = $('<div id="html_6de6fc0baa5446afb94bb638258db59e" style="width: 100.0%; height: 100.0%;">Csepel Cluster 1</div>')[0];
+                popup_8fdb5e1fbfdb437794b02db8271c2efc.setContent(html_6de6fc0baa5446afb94bb638258db59e);
+            
+
+            circle_marker_1d5b0099655b410fa866efd3ecf84825.bindPopup(popup_8fdb5e1fbfdb437794b02db8271c2efc);
+
+            
+        
+    
+            var circle_marker_cfea633aba2545aab9ec806c29ca0dd7 = L.circleMarker(
+                [47.4171277,19.0106567],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_c09f5685c51e4ced84b4a6e300b0b202 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b7557508f914fa48f3c75f3bbbf9197 = $('<div id="html_4b7557508f914fa48f3c75f3bbbf9197" style="width: 100.0%; height: 100.0%;">Budatétény Cluster 1</div>')[0];
+                popup_c09f5685c51e4ced84b4a6e300b0b202.setContent(html_4b7557508f914fa48f3c75f3bbbf9197);
+            
+
+            circle_marker_cfea633aba2545aab9ec806c29ca0dd7.bindPopup(popup_c09f5685c51e4ced84b4a6e300b0b202);
+
+            
+        
+    
+            var circle_marker_b4b7c595cf8742e29c239fda5bc3f9fe = L.circleMarker(
+                [47.4025482,19.1184601],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_3b754d47282749d799069d8ecf03c1a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_ce533736bce24a938ac0828b98cdf4ec = $('<div id="html_ce533736bce24a938ac0828b98cdf4ec" style="width: 100.0%; height: 100.0%;">Soroksár Cluster 1</div>')[0];
+                popup_3b754d47282749d799069d8ecf03c1a5.setContent(html_ce533736bce24a938ac0828b98cdf4ec);
+            
+
+            circle_marker_b4b7c595cf8742e29c239fda5bc3f9fe.bindPopup(popup_3b754d47282749d799069d8ecf03c1a5);
+
+            
+        
+    
+            var circle_marker_37cea4ee1bc644d2bc5d28f8e57b5e3f = L.circleMarker(
+                [47.512162,19.183336],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_8acc17199f7e48ffb152c115128b4e7d);
+            
+    
+            var popup_04d70b18f5044ba3806a39eb256af1eb = L.popup({maxWidth: '300'});
+
+            
+                var html_2c3693f51c134ebd99a534452c6e2f70 = $('<div id="html_2c3693f51c134ebd99a534452c6e2f70" style="width: 100.0%; height: 100.0%;">Huszkatelep Cluster 1</div>')[0];
+                popup_04d70b18f5044ba3806a39eb256af1eb.setContent(html_2c3693f51c134ebd99a534452c6e2f70);
+            
+
+            circle_marker_37cea4ee1bc644d2bc5d28f8e57b5e3f.bindPopup(popup_04d70b18f5044ba3806a39eb256af1eb);
+
+            
+        
+</script>
